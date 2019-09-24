@@ -87,7 +87,7 @@ Assignment1SimTech.py and various CSV files because that was the easiest way to 
 
 ## (Part 3.2) -  Plotting 2D Random Number Generators **(15%)**
 
-Quasi is less random and more symmetrical. The colorful charts are the pseudo random generated and the blue charts are quasi random generated. 
+Quasi is less random and more symmetrical than pseudo. 
 
 In uploaded files:
 Assignment1SimTech.py
