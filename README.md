@@ -80,7 +80,7 @@ The dataset is not actually a real dataset. I looked up 5 individual stations th
 
 First, station one has an average of 4700 people per day with an average wait time for the train of 16 minutes. Station one is much more efficient than station two becasue even though it has fewer people (M= 3140), it has a longer average wait time (M= 19.2). Station three seems to be doing better than station two, but is still behind station one in efficiency. Station three average wait time is 14.2 minutes with an average of 1560 people per day. Stationsfour and five seem to be equally efficient. Station four has an average of 2320 people per day and an average wait time of 9.2 minutes, while station five has slightly more people on average (M= 3040), and a slightly longer wait time (M= 11.2). Stations one, four, and five seem to be almost equally efficient. I would not say that I could easily say one is better than the other.
 
-This can all be seen in the graphs.
+This can all be seen in the graphs. Statistics and visualizations in Assignment1SimTech.py file.
 
 In uploaded files:
 Assignment1SimTech.py and various CSV files because that was the easiest way to split up the stations
