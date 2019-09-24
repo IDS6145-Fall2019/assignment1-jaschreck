@@ -83,8 +83,7 @@ First, station one has an average of 4700 people per day with an average wait ti
 This can all be seen in the graphs.
 
 In uploaded files:
-Assignment1SimTech.py
-(Various CSV files because that was the easiest way to split up the stations.)
+Assignment1SimTech.py and various CSV files because that was the easiest way to split up the stations
 
 ## (Part 3.2) -  Plotting 2D Random Number Generators **(15%)**
 
