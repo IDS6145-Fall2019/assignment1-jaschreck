@@ -1,70 +1,74 @@
-# Assignment 1 - Designing Models and Analyzing Data (Template)
-(remove: **text between brackets to be removed**)
+# Assignment 1 
+Jacquelyn Schreck
+Topic: Escalators efficiency
 
-> * Participant name: (your name)
-> * Project Title: (Title of the problem you are looking and modeling)
 
 # General Introduction
-
-The first part of this assignment explores designing models (and basic Python/Git features). 
-
-We will look at **subway model in a city** system. A **subway system** is an underground, tube, or metro, underground railway system used to transport large numbers of passengers within urban and suburban areas - modern subways use different types of electronic data collection sensors to supply information which is used to manage assets and resources efficiently. 
-
-The second part of the assignment explores data analysis. Data analysis and visualization is key to both the input and output of simulations. This assignment explores different random number generators, distributions, visualizations, and statistics. Additionally, it will look at getting you accustomed to specifying input and output variables to a system. We will also practice working with real data.
-
-
 # Part 1: Designing a Model - Subway System
 
-(remove: States your motivation clearly: why is it important / interesting to solve this problem?)
+Motivation: A lot of major cities use subways as their main mode of transportation, no matter where they’re going. It would be best to optimize the space so that people can circulate through as quickly as possible. In this case I am referring to how the escalators run.
 
-(remove: Add real-world examples, if any)
+Examples: Someone going to work has to get onto the subway, but they are stuck in a long line and can’t get to their train on time to get to work. Now they have to wait an additional 10-15 minutes before they have another train, and they’ll be late for work.
 
-(remove: Put the problem into a historical context, from what does it originate? Are there already some proposed solutions?)
+Context and solutions: In the past some subway systems have tried many different things. Changing direction of escalators depending on hour, making it mandatory for stationary riders to stay on the left while the walkers go to the right, etc.
 
-
-![Image of Subway City System](images/subway_model.png)
 
 ## (Part 1.1): Requirements (Experimental Design) **(10%)**
+Problems: The escalator isn’t moving as many people as efficiently as it should be. It blocks the space and makes causes people to be late to where they’re going, or they have to show up way earlier. 
 
-(remove: You should start by specifying a set of requirements. I specified a topic a Subway escalator. What exactly does that mean - practice formulating your own set of requirements and an experiment. Define problems cities face and hypothesize how a subway system could help alleviate these issue. This helps you think about your problem communication and system objectives inputs, functions, and outputs - they should be clearly specified.)
+Hypothetical solutions (Hypotheses): Make it mandatory to not walk. Make it mandatory to stay to the left if you don’t want to walk. Add more escalators (if there’s room). Add more stairs for those who want to walk (if there’s room). Change direction of escalators depending on time of day. Change speed. 
+
+System objective: To make the subway experience as efficient as possible by being able to cycle people through quickly. This means everything thing needs to keep moving and escalators can slow people down.
+
+System inputs: The escalator will be wide enough to accommodate people who want to walk and room on the side for people who don’t want to walk. People will be able to get on the escalator without having to wait, they will be able to walk on immediately.
+
+System function: Move people along as quickly as possible. 
+
+System outputs: Lessen amount of time on the escalator. Lessen wait time to get on the escalator
+
 
 ## (Part 1.2) Subway (My Problem) Model **(10%)**
 
-(remove: add a high-level overview of your model, the part below should link to the model directory markdown files)
-(remove: Look at the [**Object Diagram**](model/object_diagram.md) for how to structure this part of Part 2 for each diagram. Only the Object diagram has the template, the rest are blank. )
 
-* [**Object Diagram**](model/object_diagram.md) - provides the high level overview of components
-* [**Class Diagram**](model/class_diagram.md) - provides details of (what are you providing details of)
-* [**Behavior Diagram**](model/behavior_diagram.md) - provides details of (what are you providing details of)
-* [**Agent / User case** (if appropriate)](model/agent_usecase_diagram.md) - provides details of (what are you providing details of)
 
 ## (Part 1.3) Subway (My Problem) Simulation **(10%)**
 
-(remove: Describe how you would simulate this - including type of simulation, rough details, inputs, outputs, and how it will help you analyze your experimental hypothesis, or nullify your null hypothesis.)
+Simulation type: Agent-based simulation since it is a crowd of people
+
+Inputs: The escalator will be wide enough to accommodate people who want to walk and room on the side for people who don’t want to walk. People will be able to get on the escalator without having to wait, they will be able to walk on immediately.
+
+Outputs: Lessen amount of time on the escalator. Lessen wait time to get on the escalator
+
+How it will help to analyze: Understanding the inputs and outputs gives us more of an understanding of the independent and dependent variables (more on this in 1.5). When we understand our variables, we’re able to run the proper analyses to test our hypotheses. If we do not understand our data we are not going to be able to test our hypotheses and your work will become incomprehensible. In this case, we would want to see how many people are getting efficient use of the escalators on day one, where the conditions aren’t changed, and on day 2, when conditions are changed. That way we can see which day had better efficiency, and then implement the changes that need to be made if it shows that the changes were better for efficiency. This could be visualized with a simple bar chart.
 
 
 ## (Part 1.4) Subway City (My Problem) Model **(10%)**
-[**Code template**](code/README.md) - Starting coding framework for the (insert your exact problem here.)
-You are expected to create the python files - the code should run without errors, create and object(s) for your system, but not provide function detail.
-
 
 
 ## (Part 1.5) Specifying the Inputs to a System **(10%)**
 
-(remove the below points once ideas are satisfied)
-* Specify the independent and dependent input variables of your subway esclator model
-* Specify where the data will come from measured subset of real data (empirical) or synthetic data
-* What kind of statistics are important to capture this input data
-* How do you plan to analyze the output of your model?
-* What ways will you visualize your data - charts, and graphs you will create?
-* What clever way will you visualize your output with a useful infographic?
+Independent:
 
+Dependent:
+
+Where the data is from:
+
+Statistics for input:
+
+Analyses for output:
+
+
+
+Specify the independent and dependent input variables of your subway escalator model
+Specify where the data will come from measured, subset of real data (empirical) or synthetic data
+What kind of statistics are important to capture this input data
+How do you plan to analyze the output of your model?
+What ways will you visualize your data - charts, and graphs you will create?
+What clever way will you visualize your output with a useful infographic?
 
 
 # Part 2: Creating a Model from Code
 
-## (Part 2.1) **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model **(10%)**
-Here [**we provide an overview**](code/POTS_system/README.md) of the **P**ortable **O**rganic **T**rouble-free **S**elf-watering System (**POTS**) Model and provide a source code template for the code found in  [**the following folder**](code/POTS_system/). Please create a **class** diagram of this model (replace the placeholder diagram). (you can use paper and pencil or a digital tool).
 
 
 
@@ -72,27 +76,19 @@ Here [**we provide an overview**](code/POTS_system/README.md) of the **P**ortabl
 
 ## (Part 3.1) - Real Data **(10%)**
 
-Find a datasource that looks at part of this model - subway stations locations / escalator number, heights, widths / volume of passangers - ridership numbers   (*fits* - we are pretty loose here, it can be anything.)
+The dataset is not actually a real dataset. I looked up 5 individual stations that told me how many people they have each day of the week and how long the average wait time is. I could not find this kind of information on escalators specifically so that is why I chose this data instead. It still fits in the overall topic of the subway system though because this shows how efficient each subway system is as a whole. 
 
-* Write up a paragraph that describes the data and how it fits into your system.
-* Load the data into Python
-* Calculate a few useful statistic on the data - keep it simple- STD, means, etc..., this is just designed * to get used to working with real data. Explain the insights you derive from these statistics.
-* Visualize the raw data - visualize a few critical aspects of the data to better describe what it is, what it is showing, and why its useful to your system.
-* Calculate and plot some summary statistics that better describe the data.
+First, station one has an average of 4700 people per day with an average wait time for the train of 16 minutes. Station one is much more efficient than station two becasue even though it has fewer people (M= 3140), it has a longer average wait time (M= 19.2). Station three seems to be doing better than station two, but is still behind station one in efficiency. Station three average wait time is 14.2 minutes with an average of 1560 people per day. Stationsfour and five seem to be equally efficient. Station four has an average of 2320 people per day and an average wait time of 9.2 minutes, while station five has slightly more people on average (M= 3040), and a slightly longer wait time (M= 11.2). Stations one, four, and five seem to be almost equally efficient. I would not say that I could easily say one is better than the other.
 
-(Add your plots and visualization here)
-(Put your data into the data directory)
+This can all be seen in the graphs.
 
 
 ## (Part 3.2) -  Plotting 2D Random Number Generators **(15%)**
 
-This portion of the assignment looks at generating random numbers in Python and understanding how to properly plot them. Plot two different random numbers, pseudo random and quasi random, for five different N values. There should be 10 subplots, all properly formatted 2D plots. Note, each of the N points will have two coordinates, an x and a y, therefore you will need to generate two random numbers for each point. You should replace the image with your results in a simalar format. Discuss how the patterns differ. Feel free to change the N values from the suggested N values in the image to state your case.
-
-![Image of 2d template City](images/2Dtemplate.png)
+Quasi is less random and more symmetrical. The colorful charts are the pseudo random generated and the blue charts are quasi random generated. 
 
 
 ## (Part 3.3) -  Plotting 1D Random Distributions **(15%)**
 
-Now, choose three different distributions to plot in 1D, or as a histogram. Choose a pseudo-random generator and generate three different distributions. Example distributions are Uniform (part 8), Normal, Exponential, Poisson, and Chi-Squared, but feel free to use any three distributions of your choice. Again, plot each distribution for five different Ns. This will result in 15 different subplots, formatted similar to the image in Part 8. Include your properly formmated 1D plots below and breifly describe what we are looking at and how things change as N is changed.
+The quasi histograms look the most similar to the uniform histograms, but they are a little more symmetrical since quasi number generators are never truly random.
 
-Repeat the above using a quasi-random generator. Discuss the similarities and differences.
