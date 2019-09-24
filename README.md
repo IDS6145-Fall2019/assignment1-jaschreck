@@ -29,6 +29,10 @@ System outputs: Lessen amount of time on the escalator. Lessen wait time to get 
 
 ## (Part 1.2) Subway (My Problem) Model **(10%)**
 
+In uploaded files:
+Behavior Diagram.png
+Object Diagram.png
+Class Diagram.png
 
 
 ## (Part 1.3) Subway (My Problem) Simulation **(10%)**
@@ -44,32 +48,28 @@ How it will help to analyze: Understanding the inputs and outputs gives us more 
 
 ## (Part 1.4) Subway City (My Problem) Model **(10%)**
 
+In uploaded files:
+Assignment1SimTech.py
 
 ## (Part 1.5) Specifying the Inputs to a System **(10%)**
 
-Independent:
+Independent: How many people, how wide is the elevator, how many elevators, are people allowed to walk, which way are the elevators going, can the direction be changed, and can the speed be changed. 
 
-Dependent:
+Dependent: How long people wait to get on the escalator and how long the escalator ride is. 
 
-Where the data is from:
+Where the data is from: Online open source
 
-Statistics for input:
+Statistics for input: Important statistics are going to be the means and standard deviations. 
 
-Analyses for output:
+Analyses and visualization: The means and standard deviations are printed. There will be bar charts for the means as well. There will also be bar charts showing the raw data.
 
-
-
-Specify the independent and dependent input variables of your subway escalator model
-Specify where the data will come from measured, subset of real data (empirical) or synthetic data
-What kind of statistics are important to capture this input data
-How do you plan to analyze the output of your model?
-What ways will you visualize your data - charts, and graphs you will create?
-What clever way will you visualize your output with a useful infographic?
+Infographic: An infographic could be having a map showing routes, and each route has a differnt width and/or color based on efficiency.
 
 
 # Part 2: Creating a Model from Code
 
-
+In uploaded files:
+POTS Diagram.png
 
 
 # Part 3: Data Analysis
@@ -82,13 +82,21 @@ First, station one has an average of 4700 people per day with an average wait ti
 
 This can all be seen in the graphs.
 
+In uploaded files:
+Assignment1SimTech.py
+(Various CSV files because that was the easiest way to split up the stations.)
 
 ## (Part 3.2) -  Plotting 2D Random Number Generators **(15%)**
 
 Quasi is less random and more symmetrical. The colorful charts are the pseudo random generated and the blue charts are quasi random generated. 
 
+In uploaded files:
+Assignment1SimTech.py
 
 ## (Part 3.3) -  Plotting 1D Random Distributions **(15%)**
 
 The quasi histograms look the most similar to the uniform histograms, but they are a little more symmetrical since quasi number generators are never truly random.
+
+In uploaded files:
+Assignment1SimTech.py
 
