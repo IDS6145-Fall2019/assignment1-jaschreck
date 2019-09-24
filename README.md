@@ -94,7 +94,7 @@ Assignment1SimTech.py
 
 ## (Part 3.3) -  Plotting 1D Random Distributions **(15%)**
 
-The quasi histograms look the most similar to the uniform histograms, but they are a little more symmetrical since quasi number generators are never truly random.
+For the pseudo histograms the larger the N, the more symmetrical it becomes. The quasi histograms look the most similar to the uniform histograms, but they are a little more symmetrical since quasi number generators are never truly random. As N changes it becomes harder to see the difference between pseudo and quasi because the pesudo random numbers start to fill up the white space and it's not as easy to see how scattered it truly is. Though it will still never be as symmetrical as quasi random numbers.
 
 In uploaded files:
 Assignment1SimTech.py
